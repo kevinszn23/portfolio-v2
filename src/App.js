@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Hello World
+          <Navbar/>
         </h1>
         <h2>
-          <Navbar/>
+          Hello World
         </h2>
       </header>
     </div>
