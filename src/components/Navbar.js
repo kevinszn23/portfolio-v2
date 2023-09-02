@@ -4,11 +4,11 @@ export default function Navbar() {
             <div className="header_container">
                 <div className="header_left">Lorem Ipsum</div>
                 <div className="header_right">
-                    <h1>Home</h1>
-                    <h2>About Me</h2>
-                    <h3>Work</h3>
-                    <h4>Resume</h4>
-                    <h5>Contact</h5>
+                    <a href="/">Home</a>
+                    <a href="/">About Me</a>
+                    <a href="/">Work</a>
+                    <a href="/">Resume</a>
+                    <a href="/">Contact</a>
                 </div>
             </div>
         </header>
