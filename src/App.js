@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
           Hello World
         </h1>
         <h2>
-          <Header/>
+          <Navbar/>
         </h2>
       </header>
     </div>
