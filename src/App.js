@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 export default function App() {
@@ -15,10 +16,10 @@ export default function App() {
         <Outlet/>
         <Routes>
           <Route path="/" element={<Home/>} />
-          {/* // <About/>
-          // <Work/>
-          // <Contact/> */}
-
+          <Route path="/about" element={<About/>} />
+          <Route path="/work" element={<Work/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/resume" element={<Resume/>} />
         </Routes>
       </header>
     </div>

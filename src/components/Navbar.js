@@ -1,22 +1,24 @@
+import { Link } from "react-router-dom"
+
 export default function Navbar() {
   return (
     <div className="nav">
-      <a href="/">Lorem Ipsum</a>
+      Lorem Ipsum
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/about">About Me</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="/work">Work</a>
+          <Link to="/work">Work</Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <a href="/resume">Resume</a>
+          <Link to="/resume">Resume</Link>
         </li>
       </ul>
     </div>
