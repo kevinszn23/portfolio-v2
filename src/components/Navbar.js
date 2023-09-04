@@ -1,16 +1,16 @@
 export default function Navbar() {
     return (
-        <header>
-            <div className="header_container">
-                <div className="header_left">Lorem Ipsum</div>
-                <div className="header_right">
+        <div className="nav">
+            <a href="/">Lorem Ipsum</a>
+            <ul>
+                <li>
                     <a href="/">Home</a>
-                    <a href="/">About Me</a>
-                    <a href="/">Work</a>
-                    <a href="/">Resume</a>
-                    <a href="/">Contact</a>
-                </div>
-            </div>
-        </header>
+                    <a href="/about">About Me</a>
+                    <a href="/work">Work</a>
+                    <a href="/contact">Contact</a>
+                    <a href="/resume">Resume</a>
+                </li>
+            </ul>
+        </div>
     )
 }
