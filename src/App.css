@@ -72,12 +72,16 @@ body {
   color: grey;
 }
 
+.hero_container {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid grey;
+}
+
 .name {
   display: flex;
-  align-items: left;
+  justify-content: left;
   font-size: 45px;
-  padding-top: 100px;
-  padding-left: 50px;
   border: 1px solid green;
 }
 
@@ -85,7 +89,7 @@ body {
   display: flex;
   justify-content: center;
   border: 1px solid blue;
-  width: 350px;
+  width: 21.875rem;
   word-break: break-word;
   text-align: start;
 }
@@ -94,14 +98,11 @@ body {
   display: flex;
   justify-content: right;
   border: 1px solid red;
-  width: 350px;
+  width: 21.875rem;
   word-break: break-word;
   text-align: start;
 }
 
 .location_container {
-  display: inline-block;
-  position: relative;
-  float: right;
   border: 1px solid purple;
 }
