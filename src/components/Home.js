@@ -1,5 +1,10 @@
 export default function Home() {
-    return <h1>
-        Home
-    </h1>
+    return (
+        <div className="name">
+            Kevin Ng
+            <div className="aboutme">
+                
+            </div>
+        </div>
+    )
 }
