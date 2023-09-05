@@ -72,37 +72,46 @@ body {
   color: grey;
 }
 
-.hero_container {
+.hero-container {
   display: flex;
   justify-content: space-between;
+  padding: 5rem;
   border: 3px solid grey;
 }
 
-.name {
+.hero-name {
   display: flex;
   justify-content: left;
   font-size: 45px;
   border: 1px solid green;
 }
 
-.location {
+.hero-location {
   display: flex;
   justify-content: center;
   border: 1px solid blue;
-  width: 21.875rem;
+  width: 20rem;
   word-break: break-word;
   text-align: start;
 }
 
-.aboutme {
+.hero-aboutme {
   display: flex;
   justify-content: right;
   border: 1px solid red;
-  width: 21.875rem;
+  width: 20rem;
   word-break: break-word;
   text-align: start;
 }
 
-.location_container {
+.hero-right-container {
   border: 1px solid purple;
+}
+
+.hero-left-container {
+  border: 1px solid orange;
+}
+
+.hero-socials-container {
+  border: 2px solid black;
 }
