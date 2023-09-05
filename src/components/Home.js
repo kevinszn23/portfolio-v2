@@ -5,7 +5,6 @@ export default function Home() {
             Kevin 
             Ng
             </h1>
-            <div>
                 <div className="location_container">
                     <h2 className="location">
                         Software Engineer,
@@ -18,6 +17,5 @@ export default function Home() {
                     </p>
                 </div>
             </div>
-        </div>
     )
 }

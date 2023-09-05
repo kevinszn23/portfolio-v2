@@ -101,4 +101,7 @@ body {
 
 .location_container {
   display: inline-block;
+  position: relative;
+  float: right;
+  border: 1px solid purple;
 }
