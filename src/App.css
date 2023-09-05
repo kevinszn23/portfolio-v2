@@ -71,3 +71,34 @@ body {
 .nav li:hover {
   color: grey;
 }
+
+.name {
+  display: flex;
+  align-items: left;
+  font-size: 45px;
+  padding-top: 100px;
+  padding-left: 50px;
+  border: 1px solid green;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  border: 1px solid blue;
+  width: 350px;
+  word-break: break-word;
+  text-align: start;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: right;
+  border: 1px solid red;
+  width: 350px;
+  word-break: break-word;
+  text-align: start;
+}
+
+.location_container {
+  display: inline-block;
+}
