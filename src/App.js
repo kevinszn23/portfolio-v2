@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Work from './components/Work';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Resume from './components/Resume';
 import { Routes, Route, Outlet } from "react-router-dom";
 
@@ -16,7 +16,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/work" element={<Work/>} />
-          <Route path="/contact" element={<Contact/>} />
+          {/* <Route path="/contact" element={<Contact/>} /> */}
           <Route path="/resume" element={<Resume/>} />
         </Routes>
       </header>

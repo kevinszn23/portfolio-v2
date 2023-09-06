@@ -13,6 +13,9 @@ export default function Home() {
             <li>
               <a href="https://www.linkedin.com/in/kevinng23/">linkedin</a>
             </li>
+            <li>
+                <a href="/">email placeholder</a>
+            </li>
           </ul>
         </div>
       </div>
