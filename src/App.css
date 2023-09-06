@@ -116,14 +116,21 @@ body {
   border: 2px solid black;
 }
 
-.projects {
-  display: flex;
+.projects-container {
+  display: inline-block;
   align-items: center;
-  /* justify-content: center; */
-  width: 50rem;
+  justify-content: center;
+  border: 2px solid red;
+  padding: 0.5rem;
+  width: 40rem;
+}
+
+.projects {
+  border: 2px solid green;
 }
 
 .projects-card-image {
   border: 2px solid blue;
+  height: 100%;
   width: 100%;
 }
