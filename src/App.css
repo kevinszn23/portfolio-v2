@@ -112,8 +112,11 @@ body {
   border: 1px solid orange;
 }
 
-.hero-socials-container {
-  border: 2px solid black;
+.hero-socials-container > ul {
+  border: 4px solid black;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
 .projects-container {
@@ -133,4 +136,9 @@ body {
   border: 2px solid blue;
   height: 100%;
   width: 100%;
+}
+
+.hero-socials-icon {
+  height: 2rem;
+  width: 2rem;
 }

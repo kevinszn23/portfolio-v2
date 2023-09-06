@@ -8,19 +8,26 @@ export default function Home() {
         <div className="hero-socials-container">
           <ul>
             <li>
-              <a href="https://github.com/kevinszn23">github</a>
+              <a href="https://github.com/kevinszn23"
+              >
+                <img className="hero-socials-icon" src="./images/github-icon.png" alt="github" />
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/kevinng23/">linkedin</a>
+              <a href="https://www.linkedin.com/in/kevinng23/">
+                <img className="hero-socials-icon" src="./images/linkedin-icon.jpeg" alt="linkedin" />
+              </a>
             </li>
             <li>
-                <a href="/">email placeholder</a>
+              <a href="/">email placeholder</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="hero-right-container">
-        <h2 className="hero-location">Software Engineer, based in Massachusetts.</h2>
+        <h2 className="hero-location">
+          Software Engineer, based in Massachusetts.
+        </h2>
         <p className="hero-aboutme">
           I'm a former healthcare professional turned software engineer with
           knowledge in various tech-stacks like React, TypeScript, Python, and
