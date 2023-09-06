@@ -19,7 +19,9 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="/">email placeholder</a>
+            <button>
+            <img className="hero-socials-icon" src="./images/email-icon.png" alt="email" />
+            </button>
             </li>
           </ul>
         </div>
