@@ -1,3 +1,5 @@
+import CopyText from "./CopyText";
+
 export default function Home() {
   return (
     <div className="hero-container">
@@ -19,9 +21,10 @@ export default function Home() {
               </a>
             </li>
             <li>
-            <button>
+            <CopyText/>
+            {/* <button>
             <img className="hero-socials-icon" src="./images/email-icon.png" alt="email" />
-            </button>
+            </button> */}
             </li>
           </ul>
         </div>
