@@ -43,7 +43,7 @@
 
 body {
   margin: 0;
-  /* background-color: black; */
+  /* background-color: slategrey; */
 }
 
 .nav {
@@ -76,6 +76,9 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 5rem;
+  background-image: url(/public/images/profilepicture.png);
+  background-position: center;
+  background-repeat: no-repeat;
   /* border: 3px solid grey; */
 }
 
@@ -145,6 +148,8 @@ body {
 .hero-socials-icon {
   height: 2rem;
   width: 2rem;
+  background-color: red;
+  border: 3px solid blue;
 }
 
 button {
