@@ -22,9 +22,6 @@ export default function Home() {
             </li>
             <li>
             <CopyText/>
-            {/* <button>
-            <img className="hero-socials-icon" src="./images/email-icon.png" alt="email" />
-            </button> */}
             </li>
           </ul>
         </div>
