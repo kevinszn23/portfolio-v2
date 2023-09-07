@@ -47,13 +47,12 @@ body {
 }
 
 .nav {
-  background-color: darkgrey;
-  color: white;
+  color: black;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: end;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem;
 }
 
 .nav a {
@@ -77,18 +76,19 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 5rem;
-  border: 3px solid grey;
+  /* border: 3px solid grey; */
 }
 
 .hero-name {
   display: flex;
   justify-content: left;
-  font-size: 4rem;
+  font-size: 3.5rem;
   border: 1px solid green;
 }
 
 .hero-location {
   display: flex;
+  padding-top: 1.8rem;
   justify-content: center;
   border: 1px solid blue;
   width: 20rem;
@@ -110,10 +110,9 @@ body {
 }
 
 .hero-left-container {
-  display:inline-block;
-  /* align-items: left; */
+  display: inline-block;
+  padding-top: -3.5rem;
   border: 1px solid orange;
-
 }
 
 

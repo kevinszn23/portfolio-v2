@@ -13,7 +13,9 @@ export default function CopyButtonText() {
             <button style={{outline: "none"}} onClick={emailCopy}>
                 <img className="hero-socials-icon" src="./images/email-icon.png" alt="email" />
             </button>
-                <ToastContainer theme="dark"/>
+                <ToastContainer
+                theme="dark"
+                position="bottom-center"/>
         </div>
     )
 }
