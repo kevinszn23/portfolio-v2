@@ -43,10 +43,11 @@
 
 body {
   margin: 0;
+  /* background-color: black; */
 }
 
 .nav {
-  background-color: black;
+  background-color: darkgrey;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -150,4 +151,13 @@ body {
 button {
   border: none;
   background-color: white;
+}
+
+.hero-middle-container {
+  border: 2px solid purple;
+}
+
+.hero-profilepicture {
+  height: 20rem;
+  width: 21rem;
 }

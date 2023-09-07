@@ -26,6 +26,12 @@ export default function Home() {
           </ul>
         </div>
       </div>
+      <div className="hero-middle-container">
+        <div className="hero-profilepicture-container">
+        <img className="hero-profilepicture" src="./images/profilepicture.png" alt="profilepicture" />
+
+        </div>
+      </div>
       <div className="hero-right-container">
         <h2 className="hero-location">
           Software Engineer, based in Massachusetts.
