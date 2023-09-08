@@ -33,6 +33,7 @@ export default function Work() {
         <p>
             A React timer that utilizes React hooks where one can put in a name, date, and optional time.
         </p>
+        <a href="https://github.com/kevinszn23/countdown-timer">GitHub</a>
       </div>
       <div className="projects">
         <a
