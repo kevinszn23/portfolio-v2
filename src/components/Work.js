@@ -49,6 +49,7 @@ export default function Work() {
         <p>
             Spotify clone that utilizes Spotify API so one can search for songs, albums, and artists just like the real Spotify.
         </p>
+        <a href="https://github.com/brendonvan/This-Is-Streamify">GitHub</a>
       </div>
     </div>
   );
