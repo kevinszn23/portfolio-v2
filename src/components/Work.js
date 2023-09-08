@@ -16,6 +16,7 @@ export default function Work() {
             <p>
                 Full-stack Django/Python website made for a contracting company. Features a contact page that stores user data and implemented all designing such as the logo with input from the company.
             </p>
+            <a href="https://github.com/saybeeali/Original-GS-Contracting">GitHub</a>
         </div>
       </div>
       <div className="projects">
