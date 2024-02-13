@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
-      <h1>Hello World</h1>
+      <h1 className="name">KEVIN NG</h1>
       </header>
     </div>
   );
